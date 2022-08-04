@@ -1,0 +1,29 @@
+Database design---
+
+-- "jdbc:mysql://localhost:3306/adarsh","root", "YourPassword-123456"
+Name - Adarsh
+table - emp
+column 1- empId 
+column 2 - empName 
+
+Database Querries--
+
+create database adarsh;
+use adarsh;
+create table emp(
+	empId int,
+    empName varchar(25)
+);
+insert into emp values(
+	1,"Adarsh Gupta"
+);
+insert into emp values(
+	2,"Kingshukh Chaudhary"
+);
+insert into emp values(3, "Pranav bdkkk")
+,(4, "Kashish Chabara")
+,(5, "Yuvraaj")
+,(6, "Mohan")
+,(7, "Devesh")
+,(8, "Yash Gup");
+
